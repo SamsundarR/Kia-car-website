@@ -1,0 +1,155 @@
+#img{
+    padding-top: 93px !important;
+    padding-left: 2px !important;
+}
+
+#img2{
+    width: 303px;
+    height: 397px;
+    padding-right: -43px !important;
+    padding-bottom: 56px;
+}
+
+h3{
+    color: black;
+}
+
+#desk{
+    margin-top: -480px;
+}
+
+#img3{
+    padding-left: 250px !important;
+    size: 25% !important;
+}
+
+#sd {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+
+  #sd img {
+    width: 30%; /* Adjust the width as needed */
+    height: auto;
+    margin-bottom: 30px;
+    order: 2; /* Push the image to the right */
+  }
+
+  #sd div {
+    width: 19%;
+    margin-right: -600px;
+    color: black; /* Adjust the width as needed */
+    order: 1; /* Place the text on the left */
+  }
+
+
+#sd1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+#sd1 img {
+  width: 30%; /* Adjust the width as needed */
+  height: auto;
+  order: 1; /* Push the image to the right */
+}
+
+#sd1 div {
+  width: 15%;
+  margin-left: -600px;
+  color: black; /* Adjust the width as needed */
+  order: 2; /* Place the text on the left */
+}
+
+#btn{
+    padding: 15px 30px; 
+    font-size: 18px;
+    background-color: rgb(1, 6, 26);
+    color: azure;
+}
+
+#img4{
+    width: 25% !important;
+    height: 25% !important;
+    padding-right: 120px !important;   
+}
+
+.car-container {
+    text-align: center;
+  }
+
+#clr{
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-style: bold;
+    margin-top: -70px;
+    text-decoration: underline rgb(173, 4, 4);
+    justify-content: space-around;
+  }
+
+  .color-selector {
+    margin-top: 10px;
+  }
+  
+  .color-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: -150px;
+    margin-bottom: 50px;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  #cf{
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-style: bold;
+    margin-top: 230px;
+    text-decoration: underline rgb(173, 4, 4);
+    justify-content: space-around;
+  }
+
+  #car-image {
+    max-width: 100%;
+    align-items: center;
+    margin-top: -50px;
+    justify-content: center;
+    transition: filter 0.3s ease-in-out;
+ }
+
+ #a{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: red;
+    text-decoration: underline black;
+ }
+
+ #s{
+    text-align: center;
+    color: black;
+ }
+
+/*#slide{
+    margin-top: 200px;
+}*/
+
+ #p{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(8, 8, 8);
+ }
+
+#v{
+    color: rgb(22, 61, 21);
+    text-align: center;
+    justify-content: baseline;
+    text-transform:uppercase;
+    font-size: 70PX;
+    text-decoration:underline rgb(2, 2, 2);
+    font-family: 'Merriweather', serif;
+}

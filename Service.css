@@ -1,0 +1,52 @@
+#font{
+    margin-top: -390px;
+    width: 36%;
+    color: aliceblue;
+    padding-left: 150px;
+}
+
+#font1{
+    margin-top: -490px;
+    color: aliceblue;
+    padding-bottom:15% ;
+    justify-content: space-around;
+}
+
+#sd {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+  }
+
+  #sd img {
+    width: 30%; /* Adjust the width as needed */
+    height: auto;
+    order: 2; /* Push the image to the right */
+  }
+
+  #sd div {
+    width: 10%;
+    margin-right: -600px;
+    color: black; /* Adjust the width as needed */
+    order: 1; /* Place the text on the left */
+  }
+
+
+#sd1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+
+#sd1 img {
+  width: 30%; /* Adjust the width as needed */
+  height: auto;
+  order: 1; /* Push the image to the right */
+}
+
+#sd1 div {
+  width: 10%;
+  margin-left: -600px;
+  color: black; /* Adjust the width as needed */
+  order: 2; /* Place the text on the left */
+}

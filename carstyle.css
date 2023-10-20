@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Rubik:wght@500&display=swap');
+
+
+.navbar a {
+    color: rgb(242, 245, 245);
+    text-decoration: none; /* Remove default underline */
+    position: relative;
+    height:max-content; /* Relative positioning for the pseudo-element */
+    transition: .5s;
+}
+#kia{
+    margin-top: -380px;
+    padding-left: 33% !important;
+    font-size: 50px;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: #e4e4e4 !important;
+}
+
+#seltosfont{
+    padding-left: 33% !important;
+    font-size: 30px;
+    margin-top: -10px;
+    color: brown;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #e4e4e4 !important;
+}
+
+.navbar a::before {
+    content: ''; /* Add an empty content */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #090909;
+    border-radius: 5px;
+    transform: scaleX(0); /* Initially set to zero width */
+    transform-origin: 0 50%;
+    transition: transform 0.5s ease; /* Apply the transition to the transform property */
+}
+
+.navbar a:hover::before {
+    transform: scaleX(1); /* Expand the underline on hover */
+}
+
+.navbar a img{
+    height: 50px;
+    background: transparent !important;
+    position: relative;
+    top: 0;
+    size: 20px;
+}
+
+.navbar a i{
+    font-size: 25px;
+}
+
+
+.navbar button {
+    font-weight: 500;
+    font-size: 20px !important;
+    color: rgb(243, 243, 243) !important;
+}
+.navbar ul{
+    color: black !important;
+}
+
+.navbar a:hover::after{
+    transform: translateY(0);
+    opacity: 1;
+    background-color: #e4e4e4;
+}
+
+
+/*header:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    letter-spacing: .01em;
+    line-height: 1.5;
+    width: 100%;
+    height: 0;
+    
+}*/
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:15px 5.5% ;
+    background:transparent;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    transform:translateY(10px);
+    transition: .5s;
+    border-bottom: 1px solid;
+
+}
+
+/* Initially, set the link color to the desired color (black) */
+.nav-link {
+    transition: color 0.3s ease-in-out !important;
+  }
+  
+.navbar.scrolled .nav-link {
+    color: black !important; /* Change to black or any other color as needed */
+  }
+  
+.navbar:hover {
+    background-color: rgb(255, 255, 255) !important; /* Change to the desired hover background color */
+  }
+  
+  /* Hover styles for the links */
+.navbar:hover .nav-link {
+    color: rgb(7, 0, 0) !important; /* Change to the desired link color on hover */
+  } 
+
+.navbar{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    left: 0;
+    width: 200%;
+    height: 80px;
+    margin-top: -33px;
+    margin-bottom: -15px;
+    display: flex;
+    text-align: center;
+    background: transparent;
+    background: transparent;
+    transform:translateY(10px);
+    opacity: 5;
+    transition: .5s;
+    text-align: center;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    will-change: background-color,border-color;
+    -webkit-transition: background-color .25s ease-out,border-color .25s ease-out,-webkit-transform .3s ease-out;
+    transition: background-color 0.3s ease-in-out;
+    transition: background-color .25s ease-out,border-color .25s ease-out,-webkit-transform .3s ease-out;
+    transition: background-color .25s ease-out,border-color .25s ease-out,transform .3s ease-out;
+    transition: background-color .25s ease-out,border-color .25s ease-out,transform .3s ease-out,-webkit-transform .3s ease-out;
+}    
+
+.navbar.scrolled {
+    background-color: white !important;
+  }
